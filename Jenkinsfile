@@ -7,7 +7,12 @@ pipeline {
      stage("build") {
        
        steps {
+
           echo 'build the application..'
+         
+         script {
+           def test = 2 + 3 > 6 ? "true" : "false"
+         }
        }
      }
      
