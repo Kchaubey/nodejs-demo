@@ -11,7 +11,7 @@ pipeline {
           echo 'build the application..'
          
          script {
-           def test = 2 + 3 > 6 ? "true" : "false"
+           def test = 2 + 6 > 6 ? "true" : "false"
          }
        }
      }
